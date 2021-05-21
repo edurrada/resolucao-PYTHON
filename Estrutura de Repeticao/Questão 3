@@ -13,4 +13,10 @@ idade=int(input("\nInforme sua idade: "))
 while idade<0 or idade>150:
     idade=int(input("Informe uma idade válida: "))
     
-
+salario=float(input("\nInforme seu salario: "))
+while salario<0:
+    salario=float(input("\nInforme um salario acima de 0: "))
+    
+ec=input("\nInforme seu estado civil: ")
+while ec!='s' and ec!='c' and ec!='v' and ec!='d':
+    ec=input("\nInforme um estado civil válido (s, c, v ou d): ")
