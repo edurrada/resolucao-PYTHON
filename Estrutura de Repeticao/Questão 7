@@ -1,0 +1,7 @@
+#Faça um programa que leia 5 números e informe o maior número.
+
+numeros=[0]*5
+for i in range (5):
+    numeros[i]=int(input("Informe um número: "))
+    
+print(max(numeros)) #Função que obtem o maior número da lista
